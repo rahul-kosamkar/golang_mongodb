@@ -1,6 +1,14 @@
-# Authentication using JWT in Golang
+# User SignUp and Reset Password
 
-How to implement Authentication using JWT in Golang
+Implement simple user sign up and reset password functionality in Golang and MongoDB
+
+
+## System Requirements
+
+```bash
+Go
+MongoDB
+```
 
 ## Installtion
 
@@ -16,5 +24,5 @@ Use the below command to create executable and the run executable.
 
 ```bash
 go build
+./golang_mongodb
 ```
-# golang_mongodb
