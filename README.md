@@ -6,8 +6,8 @@ Implement simple user sign up and reset password functionality in Golang and Mon
 ## System Requirements
 
 ```bash
-Go
-MongoDB
+Go (Version 1.16)
+MongoDB (Version 4.4 above)
 ```
 
 ## Installtion
@@ -16,6 +16,12 @@ Below command will Install all the dependencies recursively.
 
 ```bash
 go get -d ./...
+```
+
+## Starting the MongoDB service
+
+```bash
+brew services start mongodb-community
 ```
 
 ## Starting the GO server
@@ -31,4 +37,4 @@ go build
 
 1. Seperate helper module or folder should be created for common functions which needs to be used all across repo.
 2. Seperate config file or module should be created to manage all configs.
-3. Folder structure should be improved to manange the code complexity in better way.
+3. Folder structure should be improved to manange the code complexity.
