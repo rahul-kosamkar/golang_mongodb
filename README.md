@@ -32,9 +32,3 @@ Use the below command to create executable and the run executable.
 go build
 ./golang_mongodb
 ```
-
-## Further Improvement's TODO
-
-1. Seperate helper module or folder should be created for common functions which needs to be used all across repo.
-2. Seperate config file or module should be created to manage all configs.
-3. Folder structure should be improved to manange the code complexity.
